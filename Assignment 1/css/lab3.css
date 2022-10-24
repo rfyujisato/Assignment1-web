@@ -1,0 +1,114 @@
+/* 
+    Name: Rafael Yuji Sato
+    Date: Jun 10, 2022
+    CST8285 - Section 304
+*/
+
+* {
+    --pageBack: #DDD78D;
+    --textBody: rgb(51, 51, 51);
+    background-color: var(--pageBack);
+    color: var(--textBody);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    --pageHeader_Footer: #60594D;
+    --textHeader_Footer: #93A29B;
+    background-color: var(--pageHeader_Footer);
+    color: var(--textHeader_Footer);
+    border: solid 3px rgb(51, 51, 51);
+    padding: 10px;
+}
+
+#header_template_name {
+    background-color: var(--pageHeader_Footer);
+    color: var(--textHeader_Footer);
+    font-size: 32pt;
+}
+
+.header_template_menu button {
+    background-color: white;
+    border-radius: 7px;
+}
+
+#header_template_nav {
+    background-color: var(--pageHeader_Footer);
+    color: var(--textBody);
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 12pt;
+}
+
+a:link, a:visited{
+    background-color: var(--pageHeader_Footer);
+    color: var(--textHeader_Footer);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8B635C;
+}
+
+.header_template_menu button:hover {
+    background-color: var(--textHeader_Footer);
+    color: #8B635C;
+    transition: 0.3s;
+}
+
+.body_content headings {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.body_content {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.general_paragraph, .css_rules {
+    text-align: left;
+}
+
+.quotation_paragraph {
+    background-color: #DCBF85;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.css_rules_subtitle {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.css_rules_paragraph, .css_rules_ol{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image1 {
+    float: right;
+    max-width: 25%;
+    margin: 10px;
+}
+
+.footer_back_to_top{
+    background-color: var(--pageHeader_Footer);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_copyright{
+    background-color: var(--pageHeader_Footer);
+    color: var(--textHeader_Footer);
+    text-align: right;
+    font-style: italic;
+    font-size: 10pt;
+    padding-top: 20px;
+}

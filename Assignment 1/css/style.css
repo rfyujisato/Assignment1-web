@@ -1,0 +1,274 @@
+/* 
+    Name: Rafael Yuji Sato
+    Email: sato0028@algonquinlive.com
+    CST8285 - Section 304
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Header */
+
+nav {
+    width: 100%;
+    height: 2.9rem;
+    background-color: #253d5b;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    justify-content: right;
+    gap: 1.3rem;
+    margin: 0 1.2rem;
+    padding: 0.9rem 0;
+    font-size: 1.2rem;
+}
+
+.nav-name {
+    flex-basis: 85%;
+}
+
+.nav-option .nav-option-current {
+    color: #c9a959;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #c9a959;
+}
+
+.nav-name {
+    font-weight: bold;
+}
+
+/* Main */
+/* Home */
+
+.content-home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+#content-banner-img{
+    width: 50%
+}
+
+.content-banner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.content-banner-text p {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem
+}
+
+h2{
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 4rem 0 1rem 0;
+}
+
+.content-about p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.content-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    margin: 2rem 0 0 0;
+}
+
+.content-info-t {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+.content-info-tp {
+    padding: 0.25rem;
+    text-align: center;
+}
+
+#content-info-college{
+    color: #006341;
+    font-size: 1.1rem;
+}
+
+.content-learn a:link, .content-learn a:visited{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.content-learn {
+    margin: 4rem 0;
+}
+
+/* Resume */
+
+.content-contact {
+    text-align: center;
+}
+
+.content-contact a:link, .content-contact a:visited{
+    color: black;
+    text-align: center;
+}
+
+.content-section {
+    margin: 2rem 2rem;
+}
+
+.content-section h3, .content-section-experience-t {
+    margin: 1.2rem 0;
+}
+
+.content-section h4, .content-section ul {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.content-section li, .content-section-education-p, .content-section-skills-g{
+    margin: 0.25rem 0 0.25rem 2.5rem;
+}
+
+#hometown, #lab-css {
+    width: 50%
+}
+
+.content-section-education-sp a:link, .content-section-education-sp a:visited {
+    color: #c9a959;
+}
+
+.content-section-pj {
+    margin: 0.5rem 0 0.25rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.content-section-education-sp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.content-section-skills ul{
+    column-count: 3;
+}
+
+/* Courses */
+
+.content-filter {
+    margin: 0 1rem;
+    line-height: 2.5rem;
+}
+
+.content-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    gap: 0.6rem;
+}
+
+.button {
+    background-color: #cfceca;
+    border: none;
+    outline: none;
+    padding: 0.8rem 1rem;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button.active {
+    background-color: #666;
+    color: white;
+  }
+
+.content-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.content-course-info {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis:  calc(25% - 1em);
+    text-align: center;
+    background-color: #cfceca;
+    margin: 0.5rem 0;
+    padding: 2rem 0.2rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 9rem;
+    background-color: #253d5b;
+    color: white;
+    position: relative;
+    font-size: 1rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 2rem 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 0 0 1rem;
+}
+
+
+
+
